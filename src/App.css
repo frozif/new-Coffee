@@ -1,0 +1,44 @@
+
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Space Mono", sans-serif;
+  --font3: "Anton", sans-serif;
+  --font4: "Noto Sans", sans-serif;
+  --font5: "Heebo", sans-serif;
+  --font6: "Nunito Sans", sans-serif;
+  --font7: "Montserrat", sans-serif;
+  --font8: "Lato", sans-serif;
+  --font9: "DM Sans", sans-serif;
+  --font10: "Catamaran", sans-serif;
+  --font11: "Font Awesome 5 Brands", sans-serif;
+  --font12: "Playfair Display", sans-serif;
+  --font13: "Yantramanav", sans-serif;
+  --font14: "Mansalva", sans-serif;
+  --font15: "Roboto", sans-serif;
+  --font16: "Segoe UI", sans-serif;
+  --font17: "Arial", sans-serif;
+}
+/* --------------------- */
+/* основные параметры экрана */
+.container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

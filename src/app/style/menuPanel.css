@@ -1,0 +1,270 @@
+/* --------------------- */
+/* --------------------- */
+/* Панель с таблицой цен на выпечку  */
+
+.panel_Food_menu{
+border-top: 1px solid #202020;
+}
+
+
+/* --------------------- */
+/* Панель с таблицой цен на выпечку Основная часть */ 
+
+.panel_Food_menu_main{
+  display: flex;
+    justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+}
+
+/* --------------------- */
+/* Панель с таблицой цен на выпечку левая  часть */ 
+
+.panel_Food_menu_left{
+  display: flex; 
+  padding-right: 20px;
+      width: 100%;
+}
+
+
+    
+.panel_Food_menu_list  {
+  width: 850px;
+}
+
+.panel_Food_menu_list li {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 8px;
+  
+}
+
+.item_name {
+  white-space: nowrap;
+  font-family: var(--font3);
+font-weight: 600;
+font-size: 20px;
+line-height: 125%;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #202020;
+}
+
+.price {
+  white-space: nowrap;
+  margin-left: auto;
+  font-weight: bold;
+    font-family: var(--third-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #202020;
+}
+
+.dots {
+  margin: 0 4px;
+    width: 200px;
+  border-bottom: 2px dotted currentColor;
+  transform: translateY(-4px);
+
+}
+
+
+
+
+/* --------------------- */
+/* Панель с таблицой цен на выпечку правая   часть */ 
+
+.panel_Food_menu_right{
+  background-image: url('@/shared/assets/img/bakeryImg.png');
+  background-size: cover;
+  background-position:center;
+  background-repeat:no-repeat;
+border-left: 1px solid #202020;
+    width: 100%;
+    min-height: 500px;
+}
+
+
+/* --------------------- */
+/* --------------------- */
+/* Панель с таблицой цен на коффее основная часть   часть */ 
+
+
+.panel_Food_menu_right.panel_Coffee_menu_right{
+    background-image: url('@/shared/assets/img/CoffeImgF.png');
+
+}
+
+.panel_Food_menu_main.panel_Coffee_menu_main{
+  flex-direction: row;
+}
+/* --------------------- */
+
+/* Адаптация */
+
+
+@media (max-width: 1800px) {
+
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+
+/* --------------------- */
+/* --------------------- */
+
+
+/* panel_Food_menu/ panel_coffee_menu */
+
+.panel_Food_menu_list{
+  width: 650px;
+}
+
+.item_name{
+      font-size: 18px;
+}
+
+.price{
+font-size: 16px;
+}
+
+.dots{
+  width: 180px;
+}
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+/* --------------------- */
+/* --------------------- */
+
+
+/* panel_Food_menu/ panel_coffee_menu */
+
+.panel_Food_menu_list{
+  width: 650px;
+}
+
+.item_name{
+      font-size: 18px;
+}
+
+.price{
+font-size: 16px;
+}
+
+.dots{
+  width: 180px;
+}
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+/* --------------------- */
+/* --------------------- */
+
+
+/* panel_Food_menu/ panel_coffee_menu */
+
+.panel_Food_menu_list{
+  width: 100%;
+}
+
+
+  .item_name {
+    font-size: 17px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .dots {
+    width: 100%;
+    margin: 0 4px;
+  }
+
+  .panel_Food_menu_right {
+    min-height: 400px;
+  }
+
+}
+
+@media (max-width: 831px) {
+}
+
+@media (max-width: 800px) {
+}
+
+
+
+@media (max-width: 700px) {
+    
+/* panel_Food_menu */
+.panel_Food_menu_main{
+  flex-direction: column;
+}
+
+.panel_Food_menu_main.panel_Coffee_menu_main {
+flex-direction: column-reverse;
+}
+}
+
+
+
+@media (max-width: 600px) {
+}
+
+
+
+@media (max-width: 500px) {
+
+.panel_Food_menu_right {
+    min-height: 350px;
+}
+
+.panel_Food_menu_left{
+  padding: 20px;
+}
+
+    .panel_Food_menu_list {
+       padding: 0;
+    }
+
+     .item_name {
+        font-size: 15px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .dots {
+        width: auto;
+        flex: 1;
+    }
+
+}
+

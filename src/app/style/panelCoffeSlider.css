@@ -1,0 +1,158 @@
+
+/* --------------------- */
+/* --------------------- */
+
+/* панель с коффе ( варианты)  */
+
+
+/* --------------------- */
+/* панель с коффе ( варианты)  main */
+
+.panel_Coffe_slider{
+    background: #fdf1d9;
+        border-top: 1px solid #202020;
+            width: 100%;
+    box-sizing: border-box;
+}
+
+.panel_Coffe_slider_main{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        width: 100%;
+    box-sizing: border-box;
+}
+
+.panel_Coffe_slider_main_title{
+    border-top: 1px solid #202020;
+    display: flex;
+    justify-content: center;
+        width: 100%;
+    box-sizing: border-box;
+}
+
+.panel_Coffe_slider_main_title h2{
+  font-family: var(--font3);
+font-weight: 600;
+text-transform: uppercase;
+    font-size: clamp(35px, 5vw, 70px);
+            text-align: center;
+color: #202020;
+}
+/* --------------------- */
+/* панель с коффе ( варианты)  Cards */
+
+.panel_Coffe_slider_Cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* --------------------- */
+
+/* Адаптация */
+
+
+@media (max-width: 1800px) {
+
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+
+
+/* panel_Coffe_slider_Card_title */
+
+.panel_Coffe_slider_Card_title{
+font-size: 11px;
+}
+
+
+
+}
+
+@media (max-width: 831px) {
+}
+
+@media (max-width: 800px) {
+}
+
+
+
+@media (max-width: 700px) {
+}
+
+
+
+@media (max-width: 600px) {
+/* panel_Coffe_slider */
+
+.panel_Coffe_slider_Cards{
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.panel_info_Right_Card.panel_Coffe_slider_Card {
+  border: 1px solid 
+}
+
+}
+
+
+
+@media (max-width: 500px) {
+
+
+    .panel_Coffe_slider_Cards {
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+.panel_Coffe_slider_main_title h2{
+  font-size: 32px;
+}
+      .panel_info_Right_Card.panel_Coffe_slider_Card{
+        height: auto;
+        min-height: 480px;
+        box-sizing: border-box;
+        padding: 25px 0;
+        }
+
+}
+

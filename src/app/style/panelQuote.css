@@ -1,0 +1,139 @@
+
+/* --------------------- */
+/* --------------------- */
+/* panel_quote тоесть панель с цитатой  */
+
+.panel_quote {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 2000px;
+  height: 752px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  background-color: #1d1d1b;
+  background-image: url('@/shared/assets/img/sectionImg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel_quote h2{
+  font-family: var(--font3);
+font-weight: 900;
+font-size: 100px;
+line-height: 110%;
+letter-spacing: -0.02em;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+  }
+  
+/* --------------------- */
+
+/* Адаптация */
+
+
+@media (max-width: 1800px) {
+
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+/* --------------------- */
+/* --------------------- */
+/* panel_quote */
+
+.panel_quote h2{
+  font-size: 90px;
+}
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+/* --------------------- */
+/* --------------------- */
+/* panel_quote */
+
+.panel_quote h2{
+    font-size: 70px;
+}
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+/* --------------------- */
+/* --------------------- */
+/* panel_quote */
+
+.panel_quote h2{
+   font-size: 60px;
+}
+
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+.panel_quote{
+    height: 480px; 
+      padding: 0 32px;
+}
+/* --------------------- */
+/* --------------------- */
+/* panel_quote */
+
+.panel_quote h2{
+   font-size: 60px;
+}
+
+}
+
+@media (max-width: 831px) {
+}
+
+@media (max-width: 800px) {
+/* panel_quote */
+.panel_quote h2 {
+    font-size: 50px;
+}
+}
+
+
+
+@media (max-width: 700px) {
+    
+}
+
+
+
+@media (max-width: 600px) {
+}
+
+
+
+@media (max-width: 500px) {
+
+.panel_quote h2 {
+    font-size: 30px;
+}
+
+}
+

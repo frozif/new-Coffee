@@ -1,0 +1,140 @@
+
+/* --------------------- */
+/* --------------------- */
+
+/* footer  */
+
+
+/* --------------------- */
+
+/* footer main*/
+
+.footer_panel{
+      border-top: 1px solid #202020;
+}
+
+.footer_panel_main{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 20px ;
+}
+
+/* --------------------- */
+
+/* footer left */
+
+.footer_panel_left{
+    display: flex;
+}
+
+.footer_panel_left p{
+font-family: var(--third-family);
+font-weight: 400;
+font-size: 16px;
+color: #202020;
+margin: 10px;
+}
+
+.footer_panel_left img{
+width: 253px;
+height: auto;
+}
+
+
+/* --------------------- */
+
+/* footer right */
+
+
+.footer_panel_right{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+}
+
+.footer_panel_right a{
+font-family: var(--third-family);
+font-weight: 400;
+font-size: 16px;
+color: #202020;
+text-decoration: none;
+}
+
+/* --------------------- */
+
+/* Адаптация */
+
+
+@media (max-width: 1800px) {
+
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+
+}
+
+@media (max-width: 831px) {
+}
+
+@media (max-width: 800px) {
+}
+
+
+
+@media (max-width: 700px) {
+}
+
+
+
+@media (max-width: 600px) {
+}
+
+
+
+@media (max-width: 500px) {
+    .footer_panel_main {
+          flex-direction: row-reverse;
+          justify-content: center;
+}
+
+.footer_panel_left p {
+  display: flex;
+}
+.footer_panel_left img{
+  width: 130px;
+}
+
+}
+

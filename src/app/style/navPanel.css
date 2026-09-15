@@ -1,0 +1,218 @@
+/* --------------------- */
+/* --------------------- */
+/* nav Панель Main */
+
+.nav_Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        padding: 0 20px;
+}
+
+.nav{
+      height: 100px;
+    width: auto;
+  
+    display: flex;
+    align-items: center;
+
+}
+
+/* --------------------- */
+/* самый верх nav панели */
+
+.nav_up{
+background-color: #1D1D1B;
+width: auto;
+height: 30px;
+}
+
+
+
+/* --------------------- */
+ /* nav панель left  */
+
+ .nav_Panel_left{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+ }
+
+ .nav_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+.nav_info button{
+border: 0;
+background-color:transparent;
+font-family: var(--third-family);
+text-decoration: none;
+font-weight: 400;
+font-size: 17px;
+line-height: 141%;
+color: #202020;
+margin: 0;
+ }
+
+
+
+ /* --------------------- */
+ /* nav панель Center  */
+
+
+
+.nav_Panel_Center img{
+  height: 50px;
+  width: auto;
+}
+
+
+ /* --------------------- */
+ /* nav панель Right  */
+
+
+.nav_Panel_Right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_btns{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_btns button{
+font-family: var(--third-family);
+font-weight: 400;
+font-size: 17px;
+line-height: 141%;
+text-transform: lowercase;
+color: #202020;
+border: 0;
+background-color: transparent;
+}
+
+
+
+
+
+/* ------------------------ */
+/* ------------------------ */
+/* Адаптация  */
+
+
+
+@media (max-width: 1800px) {
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+
+/* --------------------- */
+/* --------------------- */
+/* nav Панель Main */
+
+.nav_Main{
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav{
+height: 150px;
+}
+
+.nav_Panel_Center img{
+display: flex;
+}
+
+
+
+ .nav_Panel_left{
+    gap: 50px;
+ }
+
+}
+
+@media (max-width: 831px) {
+}
+
+@media (max-width: 800px) {
+.nav{
+  display: flex;
+}
+
+
+}
+
+
+
+@media (max-width: 700px) {
+}
+
+
+
+@media (max-width: 600px) {
+.nav{
+display: flex;
+}
+
+/* --------------------- */
+/* nav  */
+.nav_Main{
+        align-items: flex-end;
+}
+  .nav_info img{
+    content: url('@/shared/assets/img/lineTwo.svg');
+  }
+        .nav_Panel_Right,
+    .nav_Panel_left{
+     flex-direction: column;
+     align-items: flex-start;
+     
+    }
+
+
+}
+
+
+
+@media (max-width: 500px) {
+
+}
+
+
+

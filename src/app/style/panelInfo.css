@@ -1,0 +1,447 @@
+
+/* --------------------- */
+/* --------------------- */
+
+/* просто панель без элементов  */
+
+.panel{
+border-top: 1px solid #1d1d1b;
+height: 60px;
+}
+/* --------------------- */
+/* --------------------- */
+
+/* панель с информацией про коффе */
+
+.panel_info{
+background: #fdf1d9;
+    min-height: 583px;
+    height: auto;
+border-top: 1px solid #202020;
+border-bottom: 1px solid #202020;
+
+}
+
+.panel_info_main{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+/* --------------------- */
+/* панель с информацией про коффе левая сторона  */
+
+.panel_info_left{
+        width: 100%;
+    box-sizing: border-box;
+    gap: 110px;
+flex-direction: column;
+    display: flex;
+        padding: 0 20px;
+}
+
+
+.panel_info_left_Up{
+    position: relative;
+
+}
+
+
+.panel_info_left_Up_design{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: min(400px, 50%);
+    height: auto;
+}
+
+
+.panel_info_left_Up_title{
+    position: relative;
+    z-index: 2;
+    font-family: var(--font3);
+    font-weight: 900;
+    font-size: 37px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #202020;
+    width: 100%;
+    max-width: 929px;
+}
+.panel_info_left_Up_subtitle{
+font-family: var(--third-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 133%;
+    position: relative;
+    z-index: 2;
+color: #202020;
+letter-spacing: 0.10em;
+}
+
+.panel_info_left_down{
+    display: flex;
+    align-items: center;
+}
+
+.panel_info_left_down p{
+font-family: var(--font3);
+font-weight: 800;
+font-size: 20px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #1d1d1b;
+}
+
+
+.panel_info_left_down button{
+background-color:transparent;
+border: 0;
+}
+
+.panel_info_left_down img{
+width: 28px;
+height: 25px;
+}
+/* --------------------- */
+/* --------------------- */
+/* панель с информацией про коффе правая  сторона  */
+
+.panel_info_Right{
+          width: 100%;
+}
+
+/* --------------------- */
+/* панель с информацией про коффе правая  сторона (Карточки с коффе) */
+
+.panel_info_Right_Cards{
+  display: flex;
+  align-items: center;
+}
+
+.panel_info_Right_Card{
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+width: min(480px, 100%);
+    box-sizing: border-box;
+height: 583px;
+      display: flex;
+  flex-direction: column;
+    align-items: center; 
+        justify-content: space-around;
+}
+
+.panel_info_Right_Card_img{
+    width: min(230px, 80%);
+    height: auto;
+  display: block;
+  margin: 0 auto;  
+}
+
+.panel_info_Right_Card_txt{
+  text-align: left;
+    align-self: flex-start; 
+        width: 100%;
+    padding: 0 30px;
+    margin-left: 0;
+    box-sizing: border-box;
+}
+
+.panel_info_Right_Card_title{
+font-family: var(--font3);
+font-weight: 800;
+font-size: 25px;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #202020;
+}
+
+.panel_info_Right_Card_price{
+font-family: var(--third-family);
+font-weight: 500;
+font-size: 21px;
+color: #202020;
+}
+
+
+
+.panel_info_Right_Card_price_span {
+font-family: var(--third-family);
+font-weight: 400;
+font-size: 12px;
+color: #202020;
+}
+
+/* --------------------- */
+
+/* Адаптация */
+
+
+@media (max-width: 1800px) {
+
+
+/* panel_info*/
+
+.panel_info_left_Up_title{
+      font-weight: 700;
+}
+
+
+.panel_info_left_down p{
+  font-weight: 700;
+}
+
+/* --------------------- */
+/* panel_info cards*/
+
+.panel_info_Right_Card_title{
+        font-weight: 700;
+}
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+
+
+/* panel_info*/
+
+.panel_info_left_Up_title{
+          font-size: 32px;
+}
+
+
+
+
+/* --------------------- */
+
+/* panel_info cards*/
+
+.panel_info_Right_Card_title{
+        font-weight: 700;
+            font-size: 21px;
+}
+.panel_info_Right_Card_img{
+      width: min(200px, 80%);
+}
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+
+/* --------------------- */
+/* --------------------- */
+
+/* panel_info*/
+
+.panel_info_left_Up_title{
+          font-size: 27px;
+}
+
+.panel_info_left_Up_subtitle{
+    font-size: 17px;
+        letter-spacing: 0.08em;
+}
+
+
+.panel_info_left_down p{
+      font-size: 16px;
+}
+
+/* --------------------- */
+
+/* panel_info cards*/
+
+.panel_info_Right_Card_title{
+              font-size: 20px;
+}
+.panel_info_Right_Card_img{
+    width: min(180px, 80%);
+}
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+/* --------------------- */
+/* --------------------- */
+
+/* panel_info*/
+
+.panel_info_left_Up_title{
+          font-size: 27px;
+}
+
+.panel_info_left_Up_subtitle{
+    font-size: 17px;
+        letter-spacing: 0.08em;
+}
+
+
+.panel_info_left_down p{
+      font-size: 16px;
+}
+.panel_info_Right_Card_price{
+      font-size: 19px;
+}
+
+/* --------------------- */
+
+/* panel_info cards*/
+
+.panel_info_Right_Card_title{
+              font-size: 16px;
+}
+
+
+.panel_info_Right_Card_img{
+    width: min(180px, 80%);
+}
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+/* --------------------- */
+/* --------------------- */
+
+/* panel_info*/
+
+.panel_info_main{
+  flex-direction: column;
+}
+
+.panel_quote{
+    height: 480px; 
+      padding: 0 32px;
+}
+
+.panel_info_left_Up{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* --------------------- */
+.panel_info_Right_Card{
+  height: 500px;
+}
+/* panel_info cards*/
+
+.panel_info_Right_Cards{
+  border: 1px solid #000;
+      justify-content: center;
+}
+
+.panel_info_Right_Card{
+  width: 100%;
+}
+
+.panel_info_Right_Card_title{
+              font-size: 18px;
+}
+.panel_info_Right_Card_img{
+    width: min(180px, 80%);
+}
+
+.panel_info_left_down{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.panel_info_left{
+gap: 30px;
+}
+
+.panel_info_left_Up_design{
+display: none;
+}
+.panel_info_left_Up_title{
+  font-size: 24px;
+}
+
+.panel_info_left_down img{
+transform: rotate(90deg);
+}
+
+
+
+}
+
+@media (max-width: 831px) {
+.panel_info_left_Up_design{
+        top: 260px;
+}
+
+}
+
+@media (max-width: 800px) {
+}
+
+
+
+@media (max-width: 700px) {
+}
+
+
+
+@media (max-width: 600px) {
+.panel_info_Right_Card.panel_Coffe_slider_Card {
+  border: 1px solid 
+}
+
+}
+
+
+
+@media (max-width: 500px) {
+.panel_info_Right_Cards{
+      display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.panel_info_Right_Card{
+      border: 1px solid #000;
+}
+    .panel_info_left_Up_title {
+    font-size: 18px;
+}
+
+.panel_info_left_Up_subtitle {
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.panel_info_left_down p {
+    font-size: 15px;
+}
+
+.panel_info_left_Up_design {
+display: none;
+}
+
+.panel_info_Right_Card {
+   min-height: 450px;
+   padding: 20px 0;
+}
+      .panel_info_Right_Card.panel_Coffe_slider_Card{
+        height: auto;
+        min-height: 480px;
+        box-sizing: border-box;
+        padding: 25px 0;
+        }
+
+}

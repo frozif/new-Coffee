@@ -1,0 +1,210 @@
+
+
+/* --------------------- */
+/* --------------------- */
+
+/* Панель для бронирования столика   */ 
+
+/* --------------------- */
+
+/* Панель для бронирования столика  Основная часть */ 
+
+.panel_Reserve{
+      background: #fdf1d9;
+      border-top: 1px solid #202020;
+}
+
+
+.panel_Reserve_main{
+height: 466px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+text-align: center;
+    justify-content: space-evenly;
+}
+
+.panel_Reserve_main h2{
+        margin: 0;
+        font-family: var(--font3);
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: uppercase;
+color: #202020;
+}
+
+/* --------------------- */
+
+/* Панель для бронирования столика  Панель */ 
+
+.panel_Reserve_form_panel{
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items:center;
+  text-align:  center;
+  flex-wrap: wrap;
+}
+
+.panel_Reserve_form_panel_date{
+  position: relative;
+}
+
+.panel_Reserve_form_panel_date_txt {
+  position: absolute;
+  top: 35px;
+  left: 0;
+color: #e63946; 
+}
+
+.panel_Reserve_form_panel select,
+.panel_Reserve_form_panel input{
+border: 0;
+border-bottom: 1px solid #101010;
+padding: 8px 0 9px;
+width: 345px;
+  max-width: 100%;
+height: 41px;
+appearance: none;
+-webkit-appearance: none;
+font-size: 18px;
+background-color: transparent;
+}
+.panel_Reserve_form_panel option,
+.panel_Reserve_form_panel input,
+.panel_Reserve_form_panel select
+{
+font-family: var(--third-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 133%;
+color: #202020;
+background: transparent;
+}
+
+.panel_Reserve_form_panel select{
+background-image: url('@/shared/assets/img/check.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.panel_Reserve_form_panel select:focus-visible,
+.panel_Reserve_form_panel input:focus-visible {
+    outline: 2px solid #1d1d1b;
+  outline-offset: 2px;
+}
+
+
+
+.panel_Reserve_form_panel button {
+padding: 20px 30px;
+background: #1d1d1b;
+font-family: var(--font3);
+font-weight: 400;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0.08em;
+text-align: center;
+text-transform: uppercase;
+border: none;
+cursor: pointer;
+border-radius: 0;
+color: #fff;
+}
+
+/* --------------------- */
+
+/* Адаптация */
+
+
+@media (max-width: 1800px) {
+
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+
+/* --------------------- */
+/* --------------------- */
+
+/* Панель для бронирования столика   */ 
+
+/* --------------------- */
+
+/* Панель для бронирования столика  Основная часть */ 
+
+
+.panel_Reserve_main h2{
+font-size: 34px;
+}
+
+.panel_Reserve_form_panel{
+  flex-direction: column;
+}
+
+}
+
+@media (max-width: 831px) {
+}
+
+@media (max-width: 800px) {
+}
+
+
+
+@media (max-width: 700px) {
+    
+}
+
+
+
+@media (max-width: 600px) {
+}
+
+
+
+@media (max-width: 500px) {
+
+    .panel_Reserve_main h2 {
+        font-size: 28px;
+    }
+
+.panel_Reserve_form_panel select, .panel_Reserve_form_panel input {
+  width: 270px;
+}
+}
+

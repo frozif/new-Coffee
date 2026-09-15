@@ -1,0 +1,269 @@
+
+ /* --------------------- */
+/* --------------------- */
+/* header Панель Main  */
+
+
+.header{
+    border-top: 1px solid #1d1d1b;
+}
+
+
+
+.header_Main{
+    display: flex;
+    align-items: center;
+        justify-content: space-between;
+}
+
+ /* --------------------- */
+
+/* header Панель left  */
+
+.header_left{
+  background-image: url('@/shared/assets/img/header_info_left.png');
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  width: 900px;
+  height: 1100px;
+}
+/* --------------------- */
+/* header Панель Right */
+.header_Right{
+  background-image: url('@/shared/assets/img/header_info_Right.png');
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  width: 960px;
+        display: flex;
+        align-items:center;
+  height: 937px;
+}
+
+.header_Right_title{
+  padding: 0 20px;
+  font-family: var(--font3);
+font-weight: 400;
+font-size: 120px;
+line-height: 108%;
+text-transform: uppercase;
+color: #202020;
+width: 390px;
+}
+.header_right_Main  {
+position: relative;
+}
+
+.header_right_Main img {
+position: absolute;
+top: 539px;
+left: 300px;
+width: 400px;
+height: auto;
+}
+
+/* --------------------- */
+
+/* Адаптация */
+
+
+@media (max-width: 1800px) {
+}
+
+
+
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1600px) {
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+@media (max-width: 1450px) {
+
+
+/* header */
+.header_Right_title {
+    font-size: 95px;
+    width: 330px;
+}
+
+.header_right_Main img {
+    width: 320px;
+        height: auto;
+            top: 460px;
+    left: 250px;
+}
+
+
+
+.header_left{
+  width: 650px;
+  height: 850px;
+}
+
+.header_Right{
+      height: 750px;
+    width: 750px;
+}
+
+
+}
+
+/* --------------------- */
+/* --------------------- */
+
+
+
+@media (max-width: 1200px) {
+
+
+/* header */
+.header_Right_title {
+    font-size: 95px;
+    width: 330px;
+}
+
+.header_right_Main img {
+    width: 290px;
+            top: 87%;
+            left: 0;
+}
+
+
+
+
+.header_left {
+  width: 520px;
+}
+
+.header_Right {
+  width: 520px;
+}
+
+
+
+.header_Main {
+    justify-content: flex-start;
+}
+
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+
+/* header */
+.header_Right_title {
+font-size: 75px;
+        width: 271px;
+}
+
+.header_right_Main img {
+    width: 290px;
+            top: 87%;
+            left: 0;
+}
+
+
+
+
+.header_left {
+  width: 520px;
+}
+
+.header_Right {
+  width: 520px;
+}
+
+
+
+.header_Main {
+    justify-content: flex-start;
+}
+
+}
+
+@media (max-width: 831px) {
+
+    .header_Right_title {
+        font-size: 55px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+/* header */
+    .header_Right_title {
+        font-size: 50px;
+        width: 200px;
+    }
+
+        .header_right_Main img {
+        width: 230px;
+      }
+}
+
+
+
+@media (max-width: 700px) {
+}
+
+
+
+@media (max-width: 600px) {
+/* header */
+
+    .header_Main {
+      flex-direction: column;
+    }
+
+        .header_left {
+        width: 100%;
+    }
+
+
+      .header_right_Main img {
+top: 0;
+left: 40px;
+width: 180px;
+      }
+
+
+  .header_Right{
+    height: auto;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+    .header_Right_title {
+        font-size: 50px;
+        display: flex;
+    text-align: center;
+            width: 100%
+    }
+
+
+}
+
+
+
+@media (max-width: 500px) {
+
+
+
+    .header_left {
+              height: 650px;
+    }
+
+}
+
