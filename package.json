@@ -8,7 +8,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "run-s build copy404",
     "deploy": "gh-pages -d dist",
     "server": "npx json-server --watch db.json --port 3001"
   },
